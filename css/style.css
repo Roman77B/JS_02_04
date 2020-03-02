@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.feedback {
+    margin: 10px;
+}
+.feedback-title {
+    display: block;
+
+    margin: 0 0 10px 0;    
+}
+
+.feedback-form {
+    display: flex;
+    flex-flow: column;
+}
+#name, #phone, #email {
+    width: 100px;
+    border: solid 1px #ccc;
+    padding: 2px;
+}
+#email {
+    width: 120px;
+}
+#name-label, #phone-label, #email-label {
+    position: relative;
+    left: 120px;
+    top: -20px;
+    visibility: hidden;
+    color: red;
+}
+#email-label {
+    left: 140px;
+}
+
+textarea {
+    width: 400px;
+    border: solid 1px #ccc;
+}
+
+#submit {
+    width: 70px;
+    margin: 10px 0 0 0;
+}
